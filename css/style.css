@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #595e96;
+    font-family: sans-serif;
+    color: aliceblue;
+    font-weight: bold;
+    height: 100%;
+    flex-wrap: wrap;
+
+}
+
+.cabecalho {
+    background-color: #cc4d00;
+    text-align: center;
+    height: 55px;
+}
+
+.topo {
+    font-size: 3rem;
+    height: 100%;
+}
+
+.abrev {
+    font-size: 3em;
+    height: 100%;
+    display:none;
+}
+
+.logo {
+    position: relative;
+    width: 100vw;
+    height: 40vh;
+    
+}
+
+.completa img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.layout img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: none;    
+}
+
+.botoes {
+    display: inline-block; 
+    vertical-align: top;
+    width: 100%;
+    height: 180px;
+    padding-bottom: 20px;
+    text-align: center;
+    flex-grow: 1;
+}
+.botoes ul {
+    padding: 0;
+    margin: 0;
+
+}
+.botoes li {
+    display: inline-block;
+    padding: 5vw 3vh;
+    margin: 10px;    
+}
+
+.botoes a {
+    text-decoration: none;
+    color: cornsilk;
+    font-size: 2em;
+    font-style: italic;
+}
+.bt1 {
+    background-color:#90df69 ;  
+}
+.bt1:hover {
+    background-color:#69be3f ;
+}
+.bt2 {
+    background-color: #e06665;
+}
+.bt2:hover {
+    background-color: #d44444;
+}
+.bt3 {
+    background-color:#6d9eeb ;
+    
+}
+.bt3:hover {
+    background-color:#427bd6 ;
+}
+
+.rodape{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    background-color: #d8d8d8;
+    display: flex;
+}
+
+form {
+    padding-left: 26vw;
+    padding-top: 35px;
+}
+
+#email {
+    width: 40vw;
+    height: 5.4vh;
+    display: inline;
+    border: solid 1px;
+}
+#email:hover {
+    color: rgb(221, 218, 218);
+    background: rgba(245, 222, 179, 0.89);
+}
+.formulario button {
+    background: #cb4d00;
+    color: aliceblue;
+    font-weight: bold;
+    border: solid 1px black ;
+    border-left: none;
+    width: 60px;
+    height: 5.7vh;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background: #e75f0b;
+}
+input:invalid {
+    border: solid 1px rgb(230, 35, 35);
+    box-shadow: 0px 0px 3px rgb(143, 26, 26) ;
+}
+input:focus {
+    outline: none;
+}
+input:focus:invalid {
+    box-shadow: none;
+}
+
+@media (max-width: 360px) {
+    footer{
+        margin-top: 15%;
+    }
+    #email{
+        width: 40vw;
+        padding-left: 2px;
+    }
+}
+@media (max-width: 650px) {
+    .topo {
+        display:none;
+    }
+    .abrev{
+        display:block;
+    }
+    .completa img{
+        display: none;
+    }
+    .layout img {
+        display: block;
+    }
+
+}
