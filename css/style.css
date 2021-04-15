@@ -85,19 +85,21 @@ body {
 }
 .bt1 {
     background-color:#90df69 ;  
+    cursor: pointer;
 }
 .bt1:hover {
     background-color:#69be3f ;
 }
 .bt2 {
     background-color: #e06665;
+    cursor: pointer;
 }
 .bt2:hover {
     background-color: #d44444;
 }
 .bt3 {
     background-color:#6d9eeb ;
-    
+    cursor: pointer;
 }
 .bt3:hover {
     background-color:#427bd6 ;
