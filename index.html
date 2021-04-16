@@ -48,10 +48,10 @@
             <script>
                 function validar(){
                     var email = document.getElementById("email").value
-                    if(email)
+                    if(email.indexOf('@') > 0) {
                         x = alert(`O email ${email} foi cadastrado`)
                         return x
-                    }
+                    }}
 
             </script>
         </footer>

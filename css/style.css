@@ -126,7 +126,7 @@ form {
     border: solid 1px;
 }
 #email:hover {
-    color: rgb(221, 218, 218);
+    color: rgb(66, 66, 66);
     background: rgba(245, 222, 179, 0.89);
 }
 .formulario button {
