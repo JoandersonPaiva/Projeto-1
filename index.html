@@ -42,9 +42,18 @@
         <footer class="rodape">
             <form action="">
                 <div class="formulario">
-                    <input type="email" placeholder="Coloque seu e-mail aqui! ;)"  id="email" required><button type="submit">Enviar</button>
+                    <input type="email" placeholder="Coloque seu e-mail aqui! ;)"  id="email" required><button type="submit" onclick="validar()">Enviar</button>
                 </div>
             </form>
+            <script>
+                function validar(){
+                    var email = document.getElementById("email").value
+                    if(email)
+                        x = alert(`O email ${email} foi cadastrado`)
+                        return x
+                    }
+
+            </script>
         </footer>
 </body>
 </html>
